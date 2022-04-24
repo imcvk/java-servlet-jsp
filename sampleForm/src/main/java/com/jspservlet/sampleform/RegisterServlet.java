@@ -1,6 +1,7 @@
 package com.jspservlet.sampleform;
 
 import java.io.*;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -25,7 +26,7 @@ public class RegisterServlet extends HttpServlet {
         String course = req.getParameter("courses");
         String gender = req.getParameter("gender");
         String terms = req.getParameter("termsAndConditions");
-        if (terms.equals("checked")) {
+        if (terms!=null) {
             out.println("<h1>" + "name:" + name + "</h1>");
             out.println("<h1>" + "email:" + email + "</h1>");
             out.println("<h1>" + "password:" + password + "</h1>");
@@ -35,6 +36,9 @@ public class RegisterServlet extends HttpServlet {
 
         } else {
             out.println("<h1>" + "You have not accepted terms and conditions" + "</h1>");
+            RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
+            rd.include(req, resp);
+
         }
 
     }

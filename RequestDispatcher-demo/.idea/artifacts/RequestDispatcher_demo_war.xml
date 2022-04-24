@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RequestDispatcher-demo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RequestDispatcher-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RequestDispatcher-demo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RequestDispatcher-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

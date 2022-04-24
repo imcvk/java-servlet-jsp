@@ -4,15 +4,14 @@
 <head>
     <title>Registration form</title>
     <style>
-        .container {
+        .container{
             width: 40%;
-            border: 1px solid black;
+            border:1px solid black;
             margin: auto;
             padding: 20px;
             font-size: 20px;
         }
-
-        #myForm table tr td input {
+        #myForm table tr td input{
             font-size: 20px;
         }
     </style>
@@ -54,9 +53,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
-                    <input type="checkbox" value="checked" name="termsAndConditions"/>
-                </td>
+                <td><td><input type="checkbox" value="checked" name="termsAndConditions" /></td>
                 <td>Agree Terms and Conditions</td>
             </tr>
             <tr>
