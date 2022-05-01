@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SessionTrackingUsingHttpSession:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SessionTrackingUsingHttpSession</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SessionTrackingUsingHttpSession-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SessionTrackingUsingHttpSession:war exploded" />
+    </root>
+  </artifact>
+</component>

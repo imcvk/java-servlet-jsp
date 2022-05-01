@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-session-tracking-HttpSession:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test-session-tracking-HttpSession</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test-session-tracking-HttpSession-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="test-session-tracking-HttpSession:war exploded" />
+    </root>
+  </artifact>
+</component>
