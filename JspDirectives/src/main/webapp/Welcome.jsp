@@ -5,6 +5,8 @@
   Time: 12:29
   To change this template use File | Settings | File Templates.
 --%>
+
+<%--example for page directive--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
